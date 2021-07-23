@@ -1,11 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/constants/NavBar';
+import Home from './components/HomePage/Home';
 
 function App() {
   return (
-    <div className="bg-green-700">
-      <h1>fjserhfudkh</h1>
+    <div className="">
+      <NavBar />
+      <Home />
     </div>
   );
 }
