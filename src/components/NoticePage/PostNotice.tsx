@@ -12,7 +12,7 @@ const PostNotice = () => {
     console.log(e.target.value)
     const newNotice: INotice = {
       notice: e.target.value,
-      date: "" + new Date(),
+      date: new Date().toDateString(),
       author : "",
 
     };
@@ -27,7 +27,7 @@ const PostNotice = () => {
     <div className="flex justify-center py-6">
       <div>
         <textarea
-          className="border-2 rounded-md border-gray-600"
+          className="p-4  border-2 rounded-md border-gray-600"
           name=""
           id=""
           cols={100}

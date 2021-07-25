@@ -15,7 +15,7 @@ const NoticeFeed = ({ date, author, notice }: INotice) => {
   const [comments, setComments] = useState<IComment[]>([]);
   const handleCommentField = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newComment: IComment = {
-      date: "" + new Date(),
+      date: new Date().toDateString(),
       writer: "",
       comment: e.target.value,
     };

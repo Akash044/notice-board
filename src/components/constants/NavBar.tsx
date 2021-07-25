@@ -21,7 +21,7 @@ const NavBar = () => {
       <div>
         <div className="flex justify-end items-center gap-14  py-5 px-4">
           <div>Home</div>
-          <div>2</div>
+          <div>Archive</div>
           <div className="text-indigo-600 hover:text-indigo-500">
             <button>Sign in</button>
           </div>
